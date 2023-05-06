@@ -29,15 +29,15 @@ Fiddle around with [devenv.sh](https://devenv.sh) and create a development envir
 
 ### Full automated setup for development
 ```bash
-❯ sw-dev #just type this command in the root dir
+❯ sw-dev # just type this command in the root dir
 ```
 
-**The following steps are executed through the command
+**The following steps are executed through the command**
 ```bash
-composer create-project shopware/production project --no-interaction
-cd ./project
-composer req --dev dev-tools symfony/var-dumper symfony/web-profiler-bundle maltyxx/images-generator mbezhanov/faker-provider-collection frosh/development-helper frosh/tools
-bin/console system:install --basic-setup
+❯ composer create-project shopware/production project --no-interaction \
+&& cd ./project
+&& composer req --dev dev-tools symfony/var-dumper symfony/web-profiler-bundle maltyxx/images-generator mbezhanov/faker-provider-collection frosh/development-helper frosh/tools
+&& bin/console system:install --basic-setup
 ```
 
 ### Manual installation 
@@ -52,5 +52,5 @@ Open `127.0.0.1:8000` and your dev-env is ready 🎉
 
 ## Delete current project for a new installation
 ```bash
-❯ clean #just type this command in the root dir
+❯ clean # just type this command in the root dir
 ```
