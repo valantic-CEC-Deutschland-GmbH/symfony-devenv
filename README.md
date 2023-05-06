@@ -30,12 +30,12 @@ Fiddle around with [devenv.sh](https://devenv.sh) and create a development envir
 ❯ sw-dev #just type this command in the root dir
 ```
 
-**The following steps are executed through the command
+**The following steps are executed through the command**
 ```bash
-composer create-project shopware/production project
-cd ./project
-composer req --dev dev-tools symfony/var-dumper symfony/web-profiler-bundle maltyxx/images-generator mbezhanov/faker-provider-collection frosh/development-helper frosh/tools
-bin/console system:install --basic-setup
+❯ composer create-project shopware/production project \
+&& cd ./project
+&& composer req --dev dev-tools symfony/var-dumper symfony/web-profiler-bundle maltyxx/images-generator mbezhanov/faker-provider-collection frosh/development-helper frosh/tools
+&& bin/console system:install --basic-setup
 ```
 
 ### Manual installation 
