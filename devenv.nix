@@ -126,4 +126,5 @@
        composer req --dev dev-tools symfony/var-dumper symfony/web-profiler-bundle maltyxx/images-generator mbezhanov/faker-provider-collection frosh/development-helper frosh/tools
        bin/console system:install --basic-setup
       '';
+  scripts.clean.exec = "rm -Rf ./project && rm -Rf ./.devenv";
 }
