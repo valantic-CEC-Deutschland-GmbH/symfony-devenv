@@ -1,4 +1,4 @@
-# Valantic Hackathon - spring edition 23
+# Devenv.sh - Symfony and Shopware 6 Development Envoirment 
 
 ![Hackathon](./hackathon.png)
 
