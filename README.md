@@ -1,4 +1,4 @@
-# Devenv.sh - Symfony and Shopware 6 Development Envoirment 
+# Devenv.sh - Symfony and Shopware 6 Dev-Env
 
 ![Hackathon](./hackathon.png)
 
