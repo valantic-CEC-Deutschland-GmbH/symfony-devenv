@@ -6,13 +6,6 @@
     pkgs.gnupatch
     pkgs.yarn
     pkgs.symfony-cli
-    (pkgs.php82Packages.composer.overrideAttrs (old: {
-          version = "2.4.4";
-          src = pkgs.fetchurl {
-            url = "https://getcomposer.org/download/${"2.4.4"}/composer.phar";
-            sha256 = "wlLCoiGZVviAif/CQrQsjLkwCjaP04kNY5QOT8llI0U=";
-          };
-        }))
   ];
 
   languages.javascript = {
