@@ -1,4 +1,4 @@
-# Valantic Hackathon - spring edition 23
+# Devenv.sh - Symfony and Shopware 6 Dev-Env
 
 ![Hackathon](./hackathon.png)
 
@@ -54,3 +54,11 @@ Open `127.0.0.1:8000` and your dev-env is ready 🎉
 ```bash
 ❯ clean # just type this command in the root dir
 ```
+
+## Kill all devenv processes
+> Because its currently not possible to start the devenv setup in the background as deamon, this command could be handy. If your terminal session dies and you still have devenv processes running, execute this command:
+```bash
+# add this line to .bashrc, .zshrc or your shell of you choice to have the command "dkill" available
+alias dkill="kill $(ps -ax | grep /nix/store  | awk '{print $1}')" # kill all devenv.sh processes
+```
+
