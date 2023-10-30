@@ -10,7 +10,7 @@ Fiddle around with [devenv.sh](https://devenv.sh) and create a development envir
 
 1. Follow the [instructions](https://developer.shopware.com/docs/guides/installation/devenv#installation) to set up Nix, Cachix and Devenv.sh (skip any following instructions)
 2. Continue with the installation of [direnv](https://developer.shopware.com/docs/guides/installation/devenv#direnv) and ignore the next section
-3. Clone the repository `git clone https://github.com/nexusunited/symfony-devenv.git`
+3. Clone the repository `git clone https://github.com/valantic-CEC-Deutschland-GmbH/symfony-devenv.git`
 4. Go into the directory `cd symfony-devenv` and `direnv` will automatically load the environment / configurations
 5. Start your environment with `devenv up` (it will start all services within the terminal in the foreground)
 6. Open a new terminal and navigate into the project root dir
